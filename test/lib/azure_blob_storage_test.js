@@ -20,8 +20,6 @@ const AZURE_CONTAINER_NAME = crypto.randomBytes(5).toString('hex');
 const AZURE_CONFIG_DIR_PATH = path.join(TEST_FOLDER, "config");
 
 // Azure accesskey and storage account
-
-nconf.argv().env().file({file: path.join(AZURE_CONFIG_DIR_PATH, "config.json")});
 var nconf = require('nconf');
 nconf
     .env()

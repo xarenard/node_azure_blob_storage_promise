@@ -1,6 +1,7 @@
 # node_azure_blob_storage
 
 Simple example of using Azure blob Storage with node.js and testing CRUD operations with Mocha framework.
+This is a rewrite of [node_azure_blob_storage](https://github.com/xarenard/node_azure_blob_storage) using promise with bluebird module
 The output should look similar to this:
 
 ```
